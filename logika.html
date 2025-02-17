@@ -1,0 +1,23 @@
+<script>
+    var random = Math.floor(Math.random()*100)+1
+    var odpoved = Number(prompt("skuste uhodnout číslo od 1 do 100"))
+    var pokus = 0
+    while(odpoved!=random){
+        pokus++
+
+        if(odpoved<random){
+            alert("špatná odpověď zkuste to znovu (napovím vám číslo, které hledáte je větší než vaše odpověď)")
+            
+        }
+        else if(odpoved>random){
+            alert("špatná odpověď zkuste to znovu (napovím vám. Číslo, které hledáte je menší než vaše odpověď)")
+        }
+        odpoved = Number(prompt("zkuste to znovu"))
+    }
+    if(odpoved==random){
+            alert("trefa jste fakt super uhádli jste číslo"+random+"pouze s"+pokus+"pokusy")
+        }
+
+</script>
+
+

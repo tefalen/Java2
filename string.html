@@ -1,13 +1,13 @@
 <script>
     var text = "ahoj svete"
-    alert(text.toLowerCase())
-    alert(text.toUpperCase())
-    alert(text.charAt(0))
-    alert(text.length)
-    alert(text.charAt(text.length-1))
-    alert(text.indexOf("h"))
-    alert(text.lastIndexOf("e"))
-    alert(text.substring(0,6))
+    alert(text.toLowerCase())//převádí text na malá písmena
+    alert(text.toUpperCase())//převádí text na velká písmena
+    alert(text.charAt(0))//vypisuje písmenko na indexsu(na místě toho čísla)
+    alert(text.length)//kolik má text písmenek
+    alert(text.charAt(text.length-1))//poslední index celého stringu
+    alert(text.indexOf("h"))//na kterém indexu se poprvé objevuje to písmenko
+    alert(text.lastIndexOf("e"))//na kterém indexu se naosled objevuje to písmenko
+    alert(text.substring(0,6))//vypíše část řetěsce od prvního indexu(0) až do posledního indxu-1(5)
     alert(text.substring(0,text.indexOf(" ")))
     alert(text.substring(text.indexOf(" "), text.length))
 </script>

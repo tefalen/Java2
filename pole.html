@@ -3,6 +3,13 @@
     var pole = ["jablko", "hruška"]
     var polecisel = [1,2,3,4]
 
-    alert(pole.indexOf("jablko"))
+    pole.indexOf("jablko")//vypíše jablka v proměné pole
+    pole.push("švestky")//přidá prvek na konec pole
+    pole.splice(0,1)//první číslo vybýráme jaký prvek označíme a druhým číslemurčíme co chceme smazat (1=označený prvek 2=následující prvek)
+    pole.splice(pole.indexOf("hruška"),1)
+
+    var polozkydopole = "ahoj jak se máš"
+    var slova = polozkydopole.split (" ") //uložení do pole podle rozdělovače (v tomto příkladě je mezera rozdělovač)
+
 
 </script>
